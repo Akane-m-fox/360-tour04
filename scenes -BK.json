@@ -1,0 +1,868 @@
+{
+  "B1": {
+    "filename": "B1.jpg",
+    "rotation": "0 180 0",
+    "hotspots": [
+      {
+        "to": "B2",
+        "pos": "10 0 0",
+        "label": "B2へ"
+      }
+    ]
+  },
+  "B2": {
+    "filename": "B2.jpg",
+    "rotation": "0 0 0",
+    "hotspots": [
+      {
+        "to": "B1",
+        "pos": "-5 0 0",
+        "label": "B1へ"
+      },
+      {
+        "to": "B3",
+        "pos": "5 0 0",
+        "label": "B3へ"
+      }
+    ]
+  },
+  "B3": {
+    "filename": "B3.jpg",
+    "rotation": "0 40 0",
+    "hotspots": [
+      {
+        "to": "B2",
+        "pos": "-5 0 0",
+        "label": "B2へ"
+      },
+      {
+        "to": "A1",
+        "pos": "2 0 2",
+        "label": "A1へ"
+      }
+    ]
+  },
+  "A1": {
+    "filename": "A1.jpg",
+    "rotation": "0 0 0",
+    "hotspots": [
+      {
+        "to": "B3",
+        "pos": "-2 0 -2",
+        "label": "B3へ"
+      },
+      {
+        "to": "A2",
+        "pos": "2.5 0 0",
+        "label": "A2へ"
+      },
+      {
+        "to": "A34",
+        "pos": "2.5 0 2",
+        "label": "A2へ"
+      }
+    ]
+  },
+  "A2": {
+    "filename": "A2.jpg",
+    "rotation": "0 185 0",
+    "hotspots": [
+      {
+        "to": "A1",
+        "pos": "-5 0 0",
+        "label": "A1へ"
+      },
+      {
+        "to": "A28",
+        "pos": "5 0 0",
+        "label": "A45へ"
+      },
+      {
+        "to": "AA21",
+        "pos": "5 0 2",
+        "label": "A45へ"
+      }
+    ]
+  },
+
+  "A28": {
+    "filename": "A28.jpg",
+    "rotation": "0 0 0",
+    "hotspots": [
+      {
+        "to": "A2",
+        "pos": "-5 0 0",
+        "label": "A45へ戻る"
+      },
+      {
+        "to": "A3",
+        "pos": "5 0 0",
+        "label": "A3へ進む"
+      },
+      {
+        "to": "C4",
+        "pos": "0 0 -5",
+        "label": "A12（北）へ"
+      },
+      {
+        "to": "A58",
+        "pos": "0 0 5",
+        "label": "A58（南）へ"
+      }
+    ]
+  },
+
+  "A3": {
+    "filename": "A3.jpg",
+    "rotation": "0 -90 0",
+    "hotspots": [
+      {
+        "to": "A28",
+        "pos": "-5 0 0",
+        "label": "A28へ"
+      },
+      {
+        "to": "A4",
+        "pos": "5 0 0",
+        "label": "A4へ"
+      }
+    ]
+  },
+  "A4": {
+    "filename": "A4.jpg",
+    "rotation": "0 -90 0",
+    "hotspots": [
+      {
+        "to": "A3",
+        "pos": "-5 0 0",
+        "label": "A3へ"
+      },
+      {
+        "to": "A5",
+        "pos": "5 0 0",
+        "label": "A5へ"
+      }
+    ]
+  },
+  "A5": {
+    "filename": "A5.jpg",
+    "rotation": "0 -90 0",
+    "hotspots": [
+      {
+        "to": "A4",
+        "pos": "-5 0 0",
+        "label": "A4へ"
+      },
+      {
+        "to": "A37",
+        "pos": "5 0 0",
+        "label": "A37へ"
+      }
+    ]
+  },
+  "A37": {
+    "filename": "A37.jpg",
+    "rotation": "0 -90 0",
+    "hotspots": [
+      {
+        "to": "A5",
+        "pos": "-5 0 0",
+        "label": "A5へ"
+      },
+      {
+        "to": "A6",
+        "pos": "5 0 0",
+        "label": "A6へ"
+      }
+    ]
+  },
+
+  "A6": {
+    "filename": "A6.jpg",
+    "rotation": "0 185 0",
+    "hotspots": [
+      {
+        "to": "A37",
+        "pos": "-5 0 0",
+        "label": "A37へ戻る"
+      },
+      {
+        "to": "A7",
+        "pos": "0 0 -5",
+        "label": "A7（北）へ"
+      },
+      {
+        "to": "A8",
+        "pos": "0 0 5",
+        "label": "A8（南）へ"
+      }
+    ]
+  },
+
+  "A12": {
+    "filename": "A12.jpg",
+    "rotation": "0 -90 0",
+    "hotspots": [
+      {
+        "to": "C4",
+        "pos": "0 0 5"
+      },
+      {
+        "to": "A17",
+        "pos": "0 0 -5"
+      },
+      {
+        "to": "A13",
+        "pos": "5 0 0"
+      }
+    ]
+  },
+  "A17": {
+    "filename": "A17.jpg",
+    "rotation": "0 -15 0",
+    "hotspots": [
+      {
+        "to": "A12",
+        "pos": "0 0 5"
+      },
+      {
+        "to": "A35",
+        "pos": "0 0 -5"
+      },
+      {
+        "to": "A18",
+        "pos": "5 0 0"
+      }
+    ]
+  },
+  "A35": {
+    "filename": "A35.jpg",
+    "rotation": "0 180 0",
+    "hotspots": [
+      {
+        "to": "A17",
+        "pos": "0 0 5"
+      },
+      {
+        "to": "A33",
+        "pos": "0 0 -5"
+      }
+    ]
+  },
+  "A33": {
+    "filename": "A33.jpg",
+    "rotation": "0 180 0",
+    "hotspots": [
+      {
+        "to": "A35",
+        "pos": "0 0 5"
+      },
+      {
+        "to": "A36",
+        "pos": "0 0 -5"
+      },
+      {
+        "to": "A32",
+        "pos": "5 0 0"
+      }
+    ]
+  },
+  "A36": {
+    "filename": "A36.jpg",
+    "rotation": "0 190 0",
+    "hotspots": [
+      {
+        "to": "A33",
+        "pos": "0 0 5"
+      },
+      {
+        "to": "A54",
+        "pos": "0 0 -5"
+      }
+    ]
+  },
+  "A54": {
+    "filename": "A54.jpg",
+    "rotation": "0 180 0",
+    "hotspots": [
+      {
+        "to": "A36",
+        "pos": "0 0 5"
+      },
+      {
+        "to": "A38",
+        "pos": "5 0 0"
+      }
+    ]
+  },
+
+  "A7": {
+    "filename": "A7.jpg",
+    "rotation": "0 0 0",
+    "hotspots": [
+      {
+        "to": "A6",
+        "pos": "0 0 5"
+      },
+      {
+        "to": "A10",
+        "pos": "0 0 -5"
+      },
+      {
+        "to": "A15",
+        "pos": "-5 0 0"
+      }
+    ]
+  },
+  "A10": {
+    "filename": "A10.jpg",
+    "rotation": "0 -90 0",
+    "hotspots": [
+      {
+        "to": "A7",
+        "pos": "0 0 5"
+      },
+      {
+        "to": "A11",
+        "pos": "0 0 -5"
+      },
+      {
+        "to": "A21",
+        "pos": "-5 0 0"
+      }
+    ]
+  },
+  "A11": {
+    "filename": "A11.jpg",
+    "rotation": "0 180 0",
+    "hotspots": [
+      {
+        "to": "A10",
+        "pos": "0 0 5"
+      },
+      {
+        "to": "A12-1",
+        "pos": "0 0 -5"
+      }
+    ]
+  },
+  "A12-1": {
+    "filename": "A12-1.jpg",
+    "rotation": "0 177 0",
+    "hotspots": [
+      {
+        "to": "A11",
+        "pos": "0 0 5"
+      },
+      {
+        "to": "A44",
+        "pos": "0 0 -5"
+      },
+      {
+        "to": "A29",
+        "pos": "-5 0 0"
+      }
+    ]
+  },
+  "A44": {
+    "filename": "A44.jpg",
+    "rotation": "0 185 0",
+    "hotspots": [
+      {
+        "to": "A12-1",
+        "pos": "0 0 5"
+      },
+      {
+        "to": "A43",
+        "pos": "0 0 -5"
+      }
+    ]
+  },
+  "A43": {
+    "filename": "A43.jpg",
+    "rotation": "0 95 0",
+    "hotspots": [
+      {
+        "to": "A44",
+        "pos": "0 0 5"
+      },
+      {
+        "to": "A42",
+        "pos": "-5 0 0"
+      }
+    ]
+  },
+
+  "A58": {
+    "filename": "A58.jpg",
+    "rotation": "0 180 0",
+    "hotspots": [
+      {
+        "to": "A28",
+        "pos": "0 0 -5"
+      },
+      {
+        "to": "A59",
+        "pos": "0 0 5"
+      },
+      {
+        "to": "A57",
+        "pos": "5 0 0"
+      }
+    ]
+  },
+  "A59": {
+    "filename": "A59.jpg",
+    "rotation": "0 0 0",
+    "hotspots": [
+      {
+        "to": "A58",
+        "pos": "0 0 -5"
+      },
+      {
+        "to": "C3",
+        "pos": "5 0 0"
+      },
+      {
+        "to": "C1",
+        "pos": "-5 0 0",
+        "label": "A45へ"
+      }
+    ]
+  },
+  "A9": {
+    "filename": "A9.jpg",
+    "rotation": "0 0 0",
+    "hotspots": [
+      {
+        "to": "A8",
+        "pos": "0 0 -5"
+      },
+      {
+        "to": "C2",
+        "pos": "-5 0 0"
+      }
+    ]
+  },
+  "A8": {
+    "filename": "A8.jpg",
+    "rotation": "0 -22 0",
+    "hotspots": [
+      {
+        "to": "A6",
+        "pos": "0 0 -5"
+      },
+      {
+        "to": "A9",
+        "pos": "0 0 5"
+      },
+      {
+        "to": "A23",
+        "pos": "-5 0 0"
+      }
+    ]
+  },
+
+
+  "A38": {
+    "filename": "A38.jpg",
+    "rotation": "0 90 0",
+    "hotspots": [
+      {
+        "to": "A54",
+        "pos": "-5 0 0"
+      },
+      {
+        "to": "A39",
+        "pos": "5 0 0"
+      }
+    ]
+  },
+  "A39": {
+    "filename": "A39.jpg",
+    "rotation": "0 90 0",
+    "hotspots": [
+      {
+        "to": "A38",
+        "pos": "-5 0 0"
+      },
+      {
+        "to": "A40",
+        "pos": "5 0 0"
+      }
+    ]
+  },
+  "A40": {
+    "filename": "A40.jpg",
+    "rotation": "0 90 0",
+    "hotspots": [
+      {
+        "to": "A39",
+        "pos": "-5 0 0"
+      },
+      {
+        "to": "A41",
+        "pos": "5 0 0"
+      }
+    ]
+  },
+  "A41": {
+    "filename": "A41.jpg",
+    "rotation": "0 90 0",
+    "hotspots": [
+      {
+        "to": "A40",
+        "pos": "-5 0 0"
+      },
+      {
+        "to": "A42",
+        "pos": "5 0 0"
+      }
+    ]
+  },
+  "A42": {
+    "filename": "A42.jpg",
+    "rotation": "0 90 0",
+    "hotspots": [
+      {
+        "to": "A41",
+        "pos": "-5 0 0"
+      },
+      {
+        "to": "A43",
+        "pos": "5 0 0"
+      }
+    ]
+  },
+
+
+  "A32": {
+    "filename": "A32.jpg",
+    "rotation": "0 -87 0",
+    "hotspots": [
+      {
+        "to": "A33",
+        "pos": "-5 0 0"
+      },
+      {
+        "to": "A31",
+        "pos": "5 0 0"
+      }
+    ]
+  },
+  "A31": {
+    "filename": "A31.jpg",
+    "rotation": "0 -90 0",
+    "hotspots": [
+      {
+        "to": "A32",
+        "pos": "-5 0 0"
+      },
+      {
+        "to": "A30",
+        "pos": "5 0 0"
+      }
+    ]
+  },
+  "A30": {
+    "filename": "A30.jpg",
+    "rotation": "0 -90 0",
+    "hotspots": [
+      {
+        "to": "A31",
+        "pos": "-5 0 0"
+      },
+      {
+        "to": "A29",
+        "pos": "5 0 0"
+      }
+    ]
+  },
+  "A29": {
+    "filename": "A29.jpg",
+    "rotation": "0 -90 0",
+    "hotspots": [
+      {
+        "to": "A30",
+        "pos": "-5 0 0"
+      },
+      {
+        "to": "A12-1",
+        "pos": "5 0 0"
+      }
+    ]
+  },
+
+
+  "A18": {
+    "filename": "A18.jpg",
+    "rotation": "0 -95 0",
+    "hotspots": [
+      {
+        "to": "A17",
+        "pos": "-5 0 0"
+      },
+      {
+        "to": "C5",
+        "pos": "5 0 0"
+      }
+    ]
+  },
+  "A19": {
+    "filename": "A19.jpg",
+    "rotation": "0 -87 0",
+    "hotspots": [
+      {
+        "to": "C5",
+        "pos": "-5 0 0"
+      },
+      {
+        "to": "A21",
+        "pos": "5 0 0"
+      }
+    ]
+  },
+
+  "A21": {
+    "filename": "A21.jpg",
+    "rotation": "0 -87 0",
+    "hotspots": [
+      {
+        "to": "A19",
+        "pos": "-5 0 0"
+      },
+      {
+        "to": "A10",
+        "pos": "5 0 0"
+      }
+    ]
+  },
+
+
+  "A13": {
+    "filename": "A13.jpg",
+    "rotation": "0 -90 0",
+    "hotspots": [
+      {
+        "to": "A12",
+        "pos": "-5 0 0"
+      },
+      {
+        "to": "A14",
+        "pos": "5 0 0"
+      }
+    ]
+  },
+  "A14": {
+    "filename": "A14.jpg",
+    "rotation": "0 -95 0",
+    "hotspots": [
+      {
+        "to": "A13",
+        "pos": "-5 0 0"
+      },
+      {
+        "to": "A15",
+        "pos": "5 0 0"
+      }
+    ]
+  },
+  "A15": {
+    "filename": "A15.jpg",
+    "rotation": "0 -95 0",
+    "hotspots": [
+      {
+        "to": "A14",
+        "pos": "-5 0 0"
+      },
+      {
+        "to": "A7",
+        "pos": "5 0 0"
+      }
+    ]
+  },
+
+
+  "A57": {
+    "filename": "A57.jpg",
+    "rotation": "0 95 0",
+    "hotspots": [
+      {
+        "to": "A58",
+        "pos": "-5 0 0"
+      },
+      {
+        "to": "A56",
+        "pos": "5 0 0"
+      }
+    ]
+  },
+  "A56": {
+    "filename": "A56.jpg",
+    "rotation": "0 90 0",
+    "hotspots": [
+      {
+        "to": "A57",
+        "pos": "-5 0 0"
+      },
+      {
+        "to": "A61",
+        "pos": "5 0 0"
+      }
+    ]
+  },
+  "A61": {
+    "filename": "A61.jpg",
+    "rotation": "0 90 0",
+    "hotspots": [
+      {
+        "to": "A56",
+        "pos": "-5 0 0"
+      },
+      {
+        "to": "A23",
+        "pos": "5 0 0"
+      }
+    ]
+  },
+  "A23": {
+    "filename": "A23.jpg",
+    "rotation": "0 90 0",
+    "hotspots": [
+      {
+        "to": "A61",
+        "pos": "-5 0 0"
+      },
+      {
+        "to": "A8",
+        "pos": "5 0 0"
+      }
+    ]
+  },
+  "A34": {
+    "filename": "A34.jpg",
+    "rotation": "0 90 0",
+    "hotspots": [
+      {
+        "to": "A1",
+        "pos": "-5 0 0"
+      },
+      {
+        "to": "A69",
+        "pos": "5 0 0"
+      }
+    ]
+  },
+  "A69": {
+    "filename": "A69.jpg",
+    "rotation": "0 90 0",
+    "hotspots": [
+      {
+        "to": "A34",
+        "pos": "-5 0 0"
+      },
+      {
+        "to": "C1",
+        "pos": "5 0 0"
+      }
+    ]
+  },
+  "AA21": {
+    "filename": "AA21.jpg",
+    "rotation": "0 90 0",
+    "hotspots": [
+      {
+        "to": "A2",
+        "pos": "-5 0 0"
+      },
+      {
+        "to": "C1",
+        "pos": "5 0 0"
+      }
+    ]
+  },
+  "C1": {
+    "filename": "C1.jpg",
+    "rotation": "0 90 0",
+    "hotspots": [
+      {
+        "to": "A69",
+        "pos": "-5 0 0"
+      },
+      {
+        "to": "A59",
+        "pos": "5 0 0"
+      }
+    ]
+  },
+  "C2": {
+    "filename": "C2.jpg",
+    "rotation": "0 90 0",
+    "hotspots": [
+      {
+        "to": "A60",
+        "pos": "-5 0 0"
+      },
+      {
+        "to": "A9",
+        "pos": "5 0 0"
+      }
+    ]
+  },
+  "C3": {
+    "filename": "C3.jpg",
+    "rotation": "0 90 0",
+    "hotspots": [
+      {
+        "to": "A60",
+        "pos": "-5 0 0"
+      },
+      {
+        "to": "A59",
+        "pos": "5 0 0"
+      }
+    ]
+  },
+  "C4": {
+    "filename": "C4.jpg",
+    "rotation": "0 90 0",
+    "hotspots": [
+      {
+        "to": "A12",
+        "pos": "-5 0 0"
+      },
+      {
+        "to": "A28",
+        "pos": "5 0 0"
+      }
+    ]
+  },
+  "C5": {
+    "filename": "C5.jpg",
+    "rotation": "0 90 0",
+    "hotspots": [
+      {
+        "to": "A18",
+        "pos": "-5 0 0"
+      },
+      {
+        "to": "A19",
+        "pos": "5 0 0"
+      }
+    ]
+  },
+  "A60": {
+    "filename": "A60.jpg",
+    "rotation": "0 80 0",
+    "hotspots": [
+      {
+        "to": "C3",
+        "pos": "-5 0 0"
+      },
+      {
+        "to": "C2",
+        "pos": "5 0 0"
+      }
+    ]
+  }
+}

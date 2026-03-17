@@ -1,0 +1,818 @@
+{
+
+  "A1": {
+    "filename": "A1.jpg",
+    "rotation": "0 180 0",
+    "hotspots": [
+      {
+        "to": "A2",
+        "pos": "3 0 0"
+      }
+    ]
+  },
+  "A2": {
+    "filename": "A2.jpg",
+    "rotation": "0 0 0",
+    "hotspots": [
+      {
+        "to": "A1",
+        "pos": "-3 0 0"
+      },
+      {
+        "to": "A3",
+        "pos": "3 0 0"
+      }
+    ]
+  },
+  "A3": {
+    "filename": "A3.jpg",
+    "rotation": "0 40 0",
+    "hotspots": [
+      {
+        "to": "A2",
+        "pos": "-3 0 0"
+      },
+      {
+        "to": "B1",
+        "pos": "2 0 2.2"
+      }
+    ]
+  },
+
+
+  "B1": {
+    "filename": "B1.jpg",
+    "rotation": "0 0 0",
+    "hotspots": [
+      {
+        "to": "A3",
+        "pos": "-2 0 -2.2"
+      },
+      {
+        "to": "B2",
+        "pos": "0 0 3"
+      },
+      {
+        "to": "B6",
+        "pos": "2.4 0 -0.2"
+      }
+    ]
+  },
+
+
+  "B2": {
+    "filename": "B2.jpg",
+    "rotation": "0 25 0",
+    "hotspots": [
+      {
+        "to": "B1",
+        "pos": "0 0 -3"
+      },
+      {
+        "to": "B3",
+        "pos": "0 0 3"
+      }
+    ]
+  },
+  "B3": {
+    "filename": "B3.jpg",
+    "rotation": "0 10 0",
+    "hotspots": [
+      {
+        "to": "B2",
+        "pos": "0 0 -3"
+      },
+      {
+        "to": "B4",
+        "pos": "2.5 0 0"
+      }
+    ]
+  },
+
+
+  "B4": {
+    "filename": "B4.jpg",
+    "rotation": "0 90 0",
+    "hotspots": [
+      {
+        "to": "B3",
+        "pos": "-2.5 0 0"
+      },
+      {
+        "to": "B5",
+        "pos": "-0.2 0 -3"
+      },
+      {
+        "to": "B8",
+        "pos": "3 0 0"
+      }
+    ]
+  },
+
+
+  "B5": {
+    "filename": "B5.jpg",
+    "rotation": "0 180 0",
+    "hotspots": [
+      {
+        "to": "B4",
+        "pos": "0 0 3"
+      },
+      {
+        "to": "B6",
+        "pos": "0 0 -3"
+      }
+    ]
+  },
+
+
+  "B6": {
+    "filename": "B6.jpg",
+    "rotation": "0 186 0",
+    "hotspots": [
+      {
+        "to": "B5",
+        "pos": "0 0 3"
+      },
+      {
+        "to": "B1",
+        "pos": "-2.6 0 0"
+      },
+      {
+        "to": "B19",
+        "pos": "3 0 0"
+      }
+    ]
+  },
+
+
+  "B8": {
+    "filename": "B8.jpg",
+    "rotation": "0 0 0",
+    "hotspots": [
+      {
+        "to": "B4",
+        "pos": "-3 0 0"
+      },
+      {
+        "to": "B18",
+        "pos": "0 0 -3"
+      },
+      {
+        "to": "B9",
+        "pos": "4 0 0"
+      }
+    ]
+  },
+
+
+  "B9": {
+    "filename": "B9.jpg",
+    "rotation": "0 87 0",
+    "hotspots": [
+      {
+        "to": "B8",
+        "pos": "-4 0 0"
+      },
+      {
+        "to": "B10",
+        "pos": "4 0 0"
+      }
+    ]
+  },
+  "B10": {
+    "filename": "B10.jpg",
+    "rotation": "0 80 0",
+    "hotspots": [
+      {
+        "to": "B9",
+        "pos": "-4 0 0"
+      },
+      {
+        "to": "B11",
+        "pos": "3 0 0"
+      }
+    ]
+  },
+  "B11": {
+    "filename": "B11.jpg",
+    "rotation": "0 80 0",
+    "hotspots": [
+      {
+        "to": "B10",
+        "pos": "-3 0 0"
+      },
+      {
+        "to": "B12",
+        "pos": "3 0 0"
+      }
+    ]
+  },
+  "B12": {
+    "filename": "B12.jpg",
+    "rotation": "0 0 0",
+    "hotspots": [
+      {
+        "to": "B11",
+        "pos": "-3 0 0"
+      },
+      {
+        "to": "B13",
+        "pos": "0 0 -3"
+      }
+    ]
+  },
+
+
+  "B13": {
+    "filename": "B13.jpg",
+    "rotation": "0 -25 0",
+    "hotspots": [
+      {
+        "to": "B12",
+        "pos": "-0.2 0 2.5"
+      },
+      {
+        "to": "B14",
+        "pos": "-3 0 0"
+      },
+      {
+        "to": "B24",
+        "pos": "0 0 -3.5"
+      }
+    ]
+  },
+
+
+  "B14": {
+    "filename": "B14.jpg",
+    "rotation": "0 95 0",
+    "hotspots": [
+      {
+        "to": "B13",
+        "pos": "3 0 0"
+      },
+      {
+        "to": "B15",
+        "pos": "-3 0 0"
+      }
+    ]
+  },
+  "B15": {
+    "filename": "B15.jpg",
+    "rotation": "0 95 0",
+    "hotspots": [
+      {
+        "to": "B14",
+        "pos": "3 0 0"
+      },
+      {
+        "to": "B16",
+        "pos": "-3 0 0"
+      }
+    ]
+  },
+  "B16": {
+    "filename": "B16.jpg",
+    "rotation": "0 95 0",
+    "hotspots": [
+      {
+        "to": "B15",
+        "pos": "3 0 0"
+      },
+      {
+        "to": "B17",
+        "pos": "-3 0 0"
+      }
+    ]
+  },
+  "B17": {
+    "filename": "B17.jpg",
+    "rotation": "0 95 0",
+    "hotspots": [
+      {
+        "to": "B16",
+        "pos": "3 0 0"
+      },
+      {
+        "to": "B18",
+        "pos": "-3 0 0"
+      }
+    ]
+  },
+
+
+  "B18": {
+    "filename": "B18.jpg",
+    "rotation": "0 180 0",
+    "hotspots": [
+      {
+        "to": "B17",
+        "pos": "3 0 0"
+      },
+      {
+        "to": "B8",
+        "pos": "0 0 3.5"
+      },
+      {
+        "to": "B19",
+        "pos": "0 0 -3"
+      }
+    ]
+  },
+
+
+  "B19": {
+    "filename": "B19.jpg",
+    "rotation": "0 -5 0",
+    "hotspots": [
+      {
+        "to": "B18",
+        "pos": "-0.5 0 3"
+      },
+      {
+        "to": "B6",
+        "pos": "-3 0 0"
+      },
+      {
+        "to": "B20",
+        "pos": "3 0 0"
+      },
+      {
+        "to": "B30",
+        "pos": "0 0 -3"
+      }
+    ]
+  },
+
+  "B20": {
+    "filename": "B20.jpg",
+    "rotation": "0 -90 0",
+    "hotspots": [
+      {
+        "to": "B19",
+        "pos": "-3 0 0"
+      },
+      {
+        "to": "B21",
+        "pos": "3 0 0"
+      }
+    ]
+  },
+  "B21": {
+    "filename": "B21.jpg",
+    "rotation": "0 -90 0",
+    "hotspots": [
+      {
+        "to": "B20",
+        "pos": "-3 0 0"
+      },
+      {
+        "to": "B22",
+        "pos": "3 0 0"
+      }
+    ]
+  },
+  "B22": {
+    "filename": "B22.jpg",
+    "rotation": "0 -90 0",
+    "hotspots": [
+      {
+        "to": "B21",
+        "pos": "-3 0 0"
+      },
+      {
+        "to": "B23",
+        "pos": "2 0 0"
+      }
+    ]
+  },
+  "B23": {
+    "filename": "B23.jpg",
+    "rotation": "0 -90 0",
+    "hotspots": [
+      {
+        "to": "B22",
+        "pos": "-2 0 0"
+      },
+      {
+        "to": "B24",
+        "pos": "3.5 0 0"
+      }
+    ]
+  },
+
+
+  "B24": {
+    "filename": "B24.jpg",
+    "rotation": "0 185 0",
+    "hotspots": [
+      {
+        "to": "B23",
+        "pos": "-3 0 0"
+      },
+      {
+        "to": "B25",
+        "pos": "0 0 -3"
+      },
+      {
+        "to": "B13",
+        "pos": "0 0 3"
+      }
+    ]
+  },
+
+  "B25": {
+    "filename": "B25.jpg",
+    "rotation": "0 0 0",
+    "hotspots": [
+      {
+        "to": "B24",
+        "pos": "0 0 3"
+      },
+      {
+        "to": "B26",
+        "pos": "-3 0 0"
+      },
+      {
+        "to": "B37",
+        "pos": "0 0 -3.5"
+      }
+    ]
+  },
+  "B26": {
+    "filename": "B26.jpg",
+    "rotation": "0 -95 0",
+    "hotspots": [
+      {
+        "to": "B25",
+        "pos": "3 0 0"
+      },
+      {
+        "to": "B27",
+        "pos": "-3 0 0"
+      }
+    ]
+  },
+  "B27": {
+    "filename": "B27.jpg",
+    "rotation": "0 -88 0",
+    "hotspots": [
+      {
+        "to": "B26",
+        "pos": "3 0 0"
+      },
+      {
+        "to": "B28",
+        "pos": "-3 0 0"
+      }
+    ]
+  },
+  "B28": {
+    "filename": "B28.jpg",
+    "rotation": "0 -90 0",
+    "hotspots": [
+      {
+        "to": "B27",
+        "pos": "3 0 0"
+      },
+      {
+        "to": "B29",
+        "pos": "-3 0 0"
+      }
+    ]
+  },
+  "B29": {
+    "filename": "B29.jpg",
+    "rotation": "0 -90 0",
+    "hotspots": [
+      {
+        "to": "B28",
+        "pos": "3 0 0"
+      },
+      {
+        "to": "B30",
+        "pos": "-3 0 0"
+      }
+    ]
+  },
+  "B30": {
+    "filename": "B30.jpg",
+    "rotation": "0 -90 0",
+    "hotspots": [
+      {
+        "to": "B29",
+        "pos": "3 0 0"
+      },
+      {
+        "to": "B19",
+        "pos": "0 0 3"
+      },
+      {
+        "to": "B32",
+        "pos": "0 0 -3"
+      }
+    ]
+  },
+  "B31": {
+    "filename": "B31.jpg",
+    "rotation": "0 0 0",
+    "hotspots": [
+      {
+        "to": "B30",
+        "pos": "0 0 -3"
+      },
+      {
+        "to": "B32",
+        "pos": "0 0 3"
+      }
+    ]
+  },
+  "B32": {
+    "filename": "B32.jpg",
+    "rotation": "0 -15 0",
+    "hotspots": [
+      {
+        "to": "B44",
+        "pos": "0 0 -3"
+      },
+      {
+        "to": "B33",
+        "pos": "4 0 0"
+      },
+      {
+        "to": "B30",
+        "pos": "0 0 3"
+      }
+    ]
+  },
+  "B33": {
+    "filename": "B33.jpg",
+    "rotation": "0 -90 0",
+    "hotspots": [
+      {
+        "to": "B32",
+        "pos": "-4 0 0"
+      },
+      {
+        "to": "B34",
+        "pos": "3 0 -0.2"
+      }
+    ]
+  },
+  "B34": {
+    "filename": "B34.jpg",
+    "rotation": "0 -95 0",
+    "hotspots": [
+      {
+        "to": "B33",
+        "pos": "-3 0 0"
+      },
+      {
+        "to": "B35",
+        "pos": "3 0 -0.2"
+      }
+    ]
+  },
+  "B35": {
+    "filename": "B35.jpg",
+    "rotation": "0 -88 0",
+    "hotspots": [
+      {
+        "to": "B34",
+        "pos": "-3 0 -0.1"
+      },
+      {
+        "to": "B36",
+        "pos": "2 0 -0.1"
+      }
+    ]
+  },
+  "B36": {
+    "filename": "B36.jpg",
+    "rotation": "0 -88 0",
+    "hotspots": [
+      {
+        "to": "B35",
+        "pos": "-2 0 0"
+      },
+      {
+        "to": "B37",
+        "pos": "3 0 0"
+      }
+    ]
+  },
+  "B37": {
+    "filename": "B37.jpg",
+    "rotation": "0 -90 0",
+    "hotspots": [
+      {
+        "to": "B36",
+        "pos": "-3 0 -0.2"
+      },
+      {
+        "to": "B39",
+        "pos": "0 0 -3"
+      },
+      {
+        "to": "B25",
+        "pos": "0 0 3"
+      }
+    ]
+  },
+  
+  "B39": {
+    "filename": "B39.jpg",
+    "rotation": "0 180 0",
+    "hotspots": [
+      {
+        "to": "B37",
+        "pos": "0 0 3"
+      },
+      {
+        "to": "B40",
+        "pos": "-3 0 0"
+      },
+      {
+        "to": "B52",
+        "pos": "0 0 -3"
+      }
+    ]
+  },
+
+  "B40": {
+    "filename": "B40.jpg",
+    "rotation": "0 -90 0",
+    "hotspots": [
+      {
+        "to": "B39",
+        "pos": "3 0 0"
+      },
+      {
+        "to": "B41",
+        "pos": "-3 0 0"
+      }
+    ]
+  },
+  "B41": {
+    "filename": "B41.jpg",
+    "rotation": "0 -90 0",
+    "hotspots": [
+      {
+        "to": "B40",
+        "pos": "3 0 0"
+      },
+      {
+        "to": "B42",
+        "pos": "-3 0 0"
+      }
+    ]
+  },
+  "B42": {
+    "filename": "B42.jpg",
+    "rotation": "0 -90 0",
+    "hotspots": [
+      {
+        "to": "B41",
+        "pos": "3 0 0"
+      },
+      {
+        "to": "B43",
+        "pos": "-3 0 0"
+      }
+    ]
+  },
+  "B43": {
+    "filename": "B43.jpg",
+    "rotation": "0 -85 0",
+    "hotspots": [
+      {
+        "to": "B42",
+        "pos": "3 0 0"
+      },
+      {
+        "to": "B44",
+        "pos": "-3 0 0"
+      }
+    ]
+  },
+  "B44": {
+    "filename": "B44.jpg",
+    "rotation": "0 180 0",
+    "hotspots": [
+      {
+        "to": "B43",
+        "pos": "3 0 0"
+      },
+      {
+        "to": "B46",
+        "pos": "0 0 -3"
+      },
+      {
+        "to": "B32",
+        "pos": "0 0 3"
+      }
+    ]
+  },
+  
+  "B46": {
+    "filename": "B46.jpg",
+    "rotation": "0 180 0",
+    "hotspots": [
+      {
+        "to": "B44",
+        "pos": "0 0 3"
+      },
+      {
+        "to": "B47",
+        "pos": "3 0 0"
+      }
+    ]
+  },
+  "B47": {
+    "filename": "B47.jpg",
+    "rotation": "0 90 0",
+    "hotspots": [
+      {
+        "to": "B46",
+        "pos": "-3 0 0"
+      },
+      {
+        "to": "B48",
+        "pos": "3 0 0"
+      }
+    ]
+  },
+  "B48": {
+    "filename": "B48.jpg",
+    "rotation": "0 90 0",
+    "hotspots": [
+      {
+        "to": "B47",
+        "pos": "-3 0 0"
+      },
+      {
+        "to": "B49",
+        "pos": "3 0 0"
+      }
+    ]
+  },
+  "B49": {
+    "filename": "B49.jpg",
+    "rotation": "0 90 0",
+    "hotspots": [
+      {
+        "to": "B48",
+        "pos": "-3 0 0"
+      },
+      {
+        "to": "B50",
+        "pos": "3 0 0"
+      }
+    ]
+  },
+  "B50": {
+    "filename": "B50.jpg",
+    "rotation": "0 90 0",
+    "hotspots": [
+      {
+        "to": "B49",
+        "pos": "-3 0 0"
+      },
+      {
+        "to": "B51",
+        "pos": "3 0 0"
+      }
+    ]
+  },
+  "B51": {
+    "filename": "B51.jpg",
+    "rotation": "0 90 0",
+    "hotspots": [
+      {
+        "to": "B50",
+        "pos": "-3 0 0"
+      },
+      {
+        "to": "B52",
+        "pos": "3 0 0"
+      }
+    ]
+  },
+  "B52": {
+    "filename": "B52.jpg",
+    "rotation": "0 95 0",
+    "hotspots": [
+      {
+        "to": "B51",
+        "pos": "-3 0 0"
+      },
+      {
+        "to": "B39",
+        "pos": "0 0 3"
+      }
+
+    ]
+  }
+
+}
